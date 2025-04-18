@@ -7,7 +7,7 @@ try{
     let error= {...err};
     error.message= err.message;
 
-    console.log(err);
+    console.log("Error Middleware caught : ", err);
 
     // common types of error that may occur
 
